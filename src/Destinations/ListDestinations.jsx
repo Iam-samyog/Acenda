@@ -165,8 +165,8 @@ const ListDestinations = () => {
     ]
   return (
     <>
-     <div className="max-w-7xl mx-auto px-4 py-8">
-          <h1 className="text-[40px]  font-bold text-center border-b-4 border-gray-400  mb-8">Destinations</h1>
+     <div className="max-w-[1150px] mx-auto  py-8">
+          <h1 className="text-[40px]  font-bold text-start border-b-4 rounded-md border-w-5 w-[200px] border-[#0081B0]  mb-8">Destinations</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
             {properties.map((property) => (
