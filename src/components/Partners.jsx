@@ -39,7 +39,7 @@ export default function Partners() {
            modules={[Autoplay]} 
         spaceBetween={30}
         autoplay={{
-          delay: 400, // time between slides in ms
+          delay: 700, // time between slides in ms
           disableOnInteraction: false, // allows autoplay to continue after user interaction
         }}
         // Removed pagination here
