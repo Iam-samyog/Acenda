@@ -1,6 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+
 // Removed: import 'swiper/css/pagination';
 // Removed: Pagination module
 
@@ -34,7 +36,12 @@ export default function Partners() {
       </div>
 
       <Swiper
+           modules={[Autoplay]} 
         spaceBetween={30}
+        autoplay={{
+          delay: 400, // time between slides in ms
+          disableOnInteraction: false, // allows autoplay to continue after user interaction
+        }}
         // Removed pagination here
         breakpoints={{
           320: {
