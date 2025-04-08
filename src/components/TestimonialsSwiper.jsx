@@ -158,7 +158,7 @@ export default function TestimonialsSwiper() {
               {testimonials.map((slide, slideIndex) => (
                 <div key={slideIndex} className="min-w-full  flex flex-col md:flex-row gap-6">
                   {slide.map((testimonial) => (
-                    <div key={testimonial.id} className="flex-1   border-4 bg-white rounded-[40px] p-6 shadow-lg">
+                    <div key={testimonial.id} className="flex-1   border-4 bg-white rounded-[40px] p-6 shadow-lg "  data-aos='fade-left'>
                       <div className="flex items-center mb-4 ">
                         <div className="mr-4  ">
                         <div className=''>
