@@ -50,14 +50,16 @@ const Home = () => {
       <MaldivesExploration/>
     </div>
     <div className='my-[100px]'>
+    <FeatureNewsCarousel/>
+    </div>
+    <div className='my-[100px]'>
       <SubscriptionComponent/>
     </div>
+   
     <div className='mt-[100px]'>
       <Footer/>
     </div>
-    <div className='my-[100px]'>
-    <FeatureNewsCarousel/>
-    </div>
+   
 
     </div>
     

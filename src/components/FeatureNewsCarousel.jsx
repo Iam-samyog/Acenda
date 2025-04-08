@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function FeatureNewsCarousel() {
@@ -36,21 +36,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 1,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Delicious restaurant at Hanalei Bay",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 2,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Top 10 most beautiful check-in spots in PH ...",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 3,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Top 5 newest services at Navagio Beach",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
@@ -60,21 +60,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 4,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Adventure guide to Bali's hidden gems",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 5,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Best street food markets in Bangkok",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 6,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Ultimate guide to Santorini sunsets",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
@@ -84,21 +84,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 7,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Hidden waterfalls of Costa Rica",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 8,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Top luxury resorts in the Maldives",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 9,
-        image: "/api/placeholder/400/320",
+        image: "/public/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Wildlife safari adventures in Kenya",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
@@ -107,21 +107,21 @@ export default function FeatureNewsCarousel() {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-[1150px] mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Feature News</h2>
+        <h2 className="text-4xl font-bold">Feature News</h2>
         <div className="flex space-x-2">
           <button 
             onClick={handlePrev}
-            className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-300"
+            className="w-8 h-8 flex items-center  justify-center rounded-full border border-gray-300"
           >
-            <ChevronLeft size={20} />
+            <ChevronLeft size={40} />
           </button>
           <button 
             onClick={handleNext}
-            className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-300"
+            className="w-8 h-8 flex items-center  justify-center rounded-full border border-gray-300"
           >
-            <ChevronRight size={20} />
+            <ChevronRight size={40} />
           </button>
         </div>
       </div>
@@ -132,12 +132,12 @@ export default function FeatureNewsCarousel() {
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        <div className="flex transition-transform duration-300 ease-in-out" style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
+        <div className="flex transition-transform duration-300 ease-in-out " style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
           {newsData.map((slide, slideIndex) => (
-            <div key={slideIndex} className="min-w-full flex flex-col sm:flex-row gap-6">
+            <div key={slideIndex} className=" h-ful min-w-full   flex flex-col sm:flex-row gap-4">
               {slide.map((news) => (
-                <div key={news.id} className="bg-white rounded-lg shadow-md overflow-hidden flex-1">
-                  <img src={news.image} alt={news.title} className="w-full h-48 object-cover" />
+                <div key={news.id} className="bg-white  border-2 rounded-[32px]  shadow-lg overflow-hidden flex-1">
+                  <img src={news.image} alt={news.title} className="w-full h-52 object-cover" />
                   <div className="p-5">
                     <div className="flex items-center gap-2 mb-2">
                       <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -147,11 +147,11 @@ export default function FeatureNewsCarousel() {
                     </div>
                     <h3 className="font-bold text-lg mb-2">{news.title}</h3>
                     <p className="text-gray-600 text-sm mb-4">{news.description}</p>
-                    <button className="flex items-center gap-2 text-blue-500">
+                    <button className="flex items-center gap-2 text-[#008395] ">
                       <svg className="w-5 h-5 border border-blue-500 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
-                      <span className="text-sm">See more</span>
+                      <span className="text-md  font-bold">See more</span>
                     </button>
                   </div>
                 </div>
