@@ -158,15 +158,18 @@ export default function TestimonialsSwiper() {
               {testimonials.map((slide, slideIndex) => (
                 <div key={slideIndex} className="min-w-full  flex flex-col md:flex-row gap-6">
                   {slide.map((testimonial) => (
-                    <div key={testimonial.id} className="flex-1 border-4 bg-white rounded-[40px] p-6 shadow-lg">
-                      <div className="flex items-center mb-4">
-                        <div className="mr-4 -mt-12">
+                    <div key={testimonial.id} className="flex-1   border-4 bg-white rounded-[40px] p-6 shadow-lg">
+                      <div className="flex items-center mb-4 ">
+                        <div className="mr-4  ">
+                        <div className=''>
                           <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-black">
+                            
                             <img 
                               src={testimonial.image} 
                               alt={testimonial.name}
-                              className="w-full h-full object-cover" 
+                              className="w-full h-full object-cover " 
                             />
+                          </div>
                           </div>
                         </div>
                         <div>
