@@ -8,6 +8,7 @@ import MaldivesExploration from './components/MaldivesExploration';
 import SubscriptionComponent from './components/SubscriptionComponent';
 import Footer from './Footer';
 import FeatureNewsCarousel from './components/FeatureNewsCarousel';
+import TestimonialsSwiper from './components/TestimonialsSwiper';
 
 const Home = () => {
   return (
@@ -51,6 +52,9 @@ const Home = () => {
     </div>
     <div className='my-[100px]'>
     <FeatureNewsCarousel/>
+    </div>
+    <div className='my-[100px]'>
+  <TestimonialsSwiper/>
     </div>
     <div className='my-[100px]'>
       <SubscriptionComponent/>
