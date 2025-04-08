@@ -161,7 +161,28 @@ const ListDestinations = () => {
           imageUrl: '/public/img/Property/Rectangle 6 (7).png',
           row: 2,
           col: 4
-        }
+        },
+        {
+           id:crypto.randomUUID(),
+          name: 'Maldives',
+          price: '$9,000',
+          location: 'Maldives',
+          rating: 4.8,
+          imageUrl: '/public/img/Property/Rectangle 6.png',
+          row: 2,
+          col: 4
+        },
+        {
+           id:crypto.randomUUID(),
+          name: 'Palm Breeze',
+          price: '$6,000',
+          location: 'Phuket, Thailand',
+          rating: 4.8,
+          imageUrl: '/public/img/Property/Rectangle 6 (3).png',
+          row: 2,
+          col: 4
+        },
+       
     ]
   return (
     <>
@@ -203,7 +224,12 @@ const ListDestinations = () => {
               </div>
             ))}
           </div>
-          
+            <div className="flex justify-center mt-8">
+                  <button className="flex items-center px-8 py-3 border font-bold border-gray-300 rounded-full text-black  hover:bg-gray-50 transition-colors">
+                    More
+                    <ChevronRightIcon className="w-4 h-4 ml-2" />
+                  </button>
+                </div>
         
         </div>
       

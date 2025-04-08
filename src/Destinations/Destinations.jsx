@@ -3,8 +3,7 @@ import Nav from "./Nav";
 import SubscriptionComponent from "../components/SubscriptionComponent";
 import Footer from "../Footer";
 import ListDestinations from "./ListDestinations";
-import SidebarCheckIn from "./SidebarCheckIn";
-import CheckIn from "../components/CheckIn";
+
 
 const Destinations = () => {
   return (
