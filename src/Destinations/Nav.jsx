@@ -7,7 +7,7 @@ const Nav= () => {
   const navitems = ['Home', 'Destinations', 'Blog', 'News', 'Contact']
 
   return (
-    <nav className="text-black">
+    <nav className="text-white bg-gradient-to-r from-[#0081B0] to-[#01719B]">
       <div className="container mx-auto max-w-[1100px] px-4">
         <div className="flex justify-between pt-6 items-center">
           {/* Logo */}
