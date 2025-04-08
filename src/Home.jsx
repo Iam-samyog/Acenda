@@ -7,6 +7,7 @@ import LuxuryPropertyBooking from './components/LuxuryPropertyBooking ';
 import MaldivesExploration from './components/MaldivesExploration';
 import SubscriptionComponent from './components/SubscriptionComponent';
 import Footer from './Footer';
+import FeatureNewsCarousel from './components/FeatureNewsCarousel';
 
 const Home = () => {
   return (
@@ -53,6 +54,9 @@ const Home = () => {
     </div>
     <div className='mt-[100px]'>
       <Footer/>
+    </div>
+    <div className='my-[100px]'>
+    <FeatureNewsCarousel/>
     </div>
 
     </div>
