@@ -34,7 +34,7 @@ const Nav= () => {
 
         {/* Mobile menu */}
         {isOpen && (
-          <div className="md:hidden mt-4 flex flex-col gap-4black border text-black bg-opacity-80 p-4 rounded-lg">
+          <div className="md:hidden mt-4 flex flex-col gap-4 black border text-white   p-4 rounded-lg">
             {navitems.map((nav, index) => (
               <Link
                 key={index}

@@ -9,7 +9,7 @@ import MaldivesExploration from "../components/MaldivesExploration";
 const Destinations = () => {
   return (
     <>
-  <div className="sticky top-0 z-50 bg-gradient-to-b bg-black to-[#006ab0] pb-5 shadow-md">
+  <div className="sticky top-0 z-50 bg-gradient-to-t bg-blue-400 to-[#0081B0] pb-5 shadow-md">
   <Nav />
 </div>
 <div>
