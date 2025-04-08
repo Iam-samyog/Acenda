@@ -3,18 +3,21 @@ import Nav from "./Nav";
 import SubscriptionComponent from "../components/SubscriptionComponent";
 import Footer from "../Footer";
 import ListDestinations from "./ListDestinations";
+import MaldivesExploration from "../components/MaldivesExploration";
 
 
 const Destinations = () => {
   return (
     <>
-  <div className="sticky top-0 z-50 bg-gradient-to-b from-[#0081B0] to-[#00d6ff] to-[#006ab0] pb-5 shadow-md">
+  <div className="sticky top-0 z-50 bg-gradient-to-b bg-black to-[#006ab0] pb-5 shadow-md">
   <Nav />
 </div>
-
+<div>
+    <MaldivesExploration/>
+    </div>
 <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1350px]">
   
-   
+ 
     <div className="w-full">
       <ListDestinations />
     </div>
