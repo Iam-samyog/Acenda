@@ -49,7 +49,7 @@ const MaldivesExploration = () => {
             <p className="text-white text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
             </p>
-            <button className="mt-8 bg-white text-black px-6 py-3 rounded-full inline-flex items-center font-medium">
+            <button className='mt-8 bg-white text-black px-6 py-3 rounded-full inline-flex items-center font-medium transform transition-all duration-300 hover:scale-x-110 hover:bg-black hover:text-white hover:border-white border-2 border-transparent'>
               See all
               <ArrowRightIcon className="ml-2 w-5 h-5" />
             </button>
