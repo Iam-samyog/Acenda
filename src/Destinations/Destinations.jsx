@@ -31,7 +31,7 @@ const Destinations = () => {
     
 </div>
 <div className="border-t-3 border-gray-300"></div>
-<div className="  my-16 md:my-[100px]" data-aos='slide-right'>
+<div className="  my-16 md:my-[100px]" data-aos='fade-right'>
   <SubscriptionComponent />
 </div>
 

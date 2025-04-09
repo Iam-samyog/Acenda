@@ -64,7 +64,7 @@ const Home = () => {
     <div className='my-[100px]' >
   <TestimonialsSwiper/>
     </div>
-    <div className='my-[100px]' data-aos='slide-right'>
+    <div className='my-[100px]' data-aos='fade-right'>
       <SubscriptionComponent/>
     </div>
    
