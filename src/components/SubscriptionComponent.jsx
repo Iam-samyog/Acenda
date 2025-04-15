@@ -15,7 +15,7 @@ const SubscriptionComponent = () => {
         {/* Left Side - Image */}
         <div className="w-full sm:w-full mb-5 md:mb-0  md:w-1/3">
           <img 
-            src="/public/img/Rectangle 45.png" 
+            src="/img/Rectangle 45.png" 
             alt="Luxury villa with pool and ocean view" 
             className="w-full h-full md:w-[428px] md:h-[360px]  object-cover"
           />

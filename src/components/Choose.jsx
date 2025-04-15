@@ -5,19 +5,19 @@ const Choose = () => {
         {
             id: 1,
             title: 'Competitive Prices',
-            image: '/public/img/dollar-circle.png',
+            image: '/img/dollar-circle.png',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum'
         },
         {
             id: 2,
             title: 'Secure Processing',
-            image: '/public/img/security-user.png',
+            image: '/img/security-user.png',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum'
         },
         {
             id: 3,
             title: 'Seamless Experience',
-            image: '/public/img/refresh-right-square.png',
+            image: '/img/refresh-right-square.png',
             description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum'
         }
     ];

@@ -36,21 +36,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 1,
-        image: "/public/img/News/Rectangle 33.png",
+        image: "/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Delicious restaurant at Hanalei Bay",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 2,
-        image: "/public/img/News/Rectangle 33 (1).png",
+        image: "/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Top 10 most beautiful check-in spots in PH ...",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 3,
-        image: "/public/img/News/Rectangle 33 (2).png",
+        image: "/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Top 5 newest services at Navagio Beach",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
@@ -60,21 +60,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 4,
-        image: "/public/img/News/Rectangle 33.png",
+        image: "/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Adventure guide to Bali's hidden gems",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 5,
-        image: "/public/img/News/Rectangle 33 (1).png",
+        image: "/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Best street food markets in Bangkok",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 6,
-        image: "/public/img/News/Rectangle 33 (2).png",
+        image: "/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Ultimate guide to Santorini sunsets",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
@@ -84,21 +84,21 @@ export default function FeatureNewsCarousel() {
     [
       {
         id: 7,
-        image: "/public/img/News/Rectangle 33 (1).png",
+        image: "/img/News/Rectangle 33 (1).png",
         date: "February 20, 2024",
         title: "Hidden waterfalls of Costa Rica",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 8,
-        image: "/public/img/News/Rectangle 33.png",
+        image: "/img/News/Rectangle 33.png",
         date: "February 20, 2024",
         title: "Top luxury resorts in the Maldives",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."
       },
       {
         id: 9,
-        image: "/public/img/News/Rectangle 33 (2).png",
+        image: "/img/News/Rectangle 33 (2).png",
         date: "February 20, 2024",
         title: "Wildlife safari adventures in Kenya",
         description: "Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been lorem..."

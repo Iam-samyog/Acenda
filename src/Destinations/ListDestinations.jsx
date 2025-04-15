@@ -8,7 +8,7 @@ const ListDestinations = () => {
           price: '$10,000',
           location: 'Rio de Janeiro, Brazil',
           rating: 4.2,
-          imageUrl: '/public/img/Property/Rectangle 6.png',
+          imageUrl: '/img/Property/Rectangle 6.png',
           row: 1,
           col: 1
         },
@@ -18,7 +18,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Bali, Indonesia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (1).png',
+          imageUrl: '/img/Property/Rectangle 6 (1).png',
           row: 1,
           col: 2
         },
@@ -28,7 +28,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Sydney, Australia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (2).png',
+          imageUrl: '/img/Property/Rectangle 6 (2).png',
           row: 1,
           col: 3
         },
@@ -38,7 +38,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Barcelona, Spain',
           rating: 4.5,
-          imageUrl: '/public/img/Property/Rectangle 6 (3).png',
+          imageUrl: '/img/Property/Rectangle 6 (3).png',
           row: 1,
           col: 4
         },
@@ -48,7 +48,7 @@ const ListDestinations = () => {
           price: '$7,000',
           location: 'Sydney, Australia',
           rating: 4.4,
-          imageUrl: '/public/img/Property/Rectangle 6 (4).png',
+          imageUrl: '/img/Property/Rectangle 6 (4).png',
           row: 2,
           col: 1
         },
@@ -58,7 +58,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Barcelona, Spain',
           rating: 4.2, 
-          imageUrl: '/public/img/Property/Rectangle 6 (5).png',
+          imageUrl: '/img/Property/Rectangle 6 (5).png',
           row: 2,
           col: 2
         },
@@ -68,7 +68,7 @@ const ListDestinations = () => {
           price: '$7,000',
           location: 'Bali, Indonesia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (6).png',
+          imageUrl: '/img/Property/Rectangle 6 (6).png',
           row: 2,
           col: 3
         },
@@ -78,7 +78,7 @@ const ListDestinations = () => {
           price: '$6,000',
           location: 'Phuket, Thailand',
           rating: 4.8,
-          imageUrl: '/public/img/Property/Rectangle 6 (7).png',
+          imageUrl: '/img/Property/Rectangle 6 (7).png',
           row: 2,
           col: 4
         },
@@ -88,7 +88,7 @@ const ListDestinations = () => {
           price: '$10,000',
           location: 'Rio de Janeiro, Brazil',
           rating: 4.2,
-          imageUrl: '/public/img/Property/Rectangle 6.png',
+          imageUrl: '/img/Property/Rectangle 6.png',
           row: 1,
           col: 1
         },
@@ -98,7 +98,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Bali, Indonesia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (1).png',
+          imageUrl: '/img/Property/Rectangle 6 (1).png',
           row: 1,
           col: 2
         },
@@ -108,7 +108,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Sydney, Australia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (2).png',
+          imageUrl: '/img/Property/Rectangle 6 (2).png',
           row: 1,
           col: 3
         },
@@ -118,7 +118,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Barcelona, Spain',
           rating: 4.5,
-          imageUrl: '/public/img/Property/Rectangle 6 (3).png',
+          imageUrl: '/img/Property/Rectangle 6 (3).png',
           row: 1,
           col: 4
         },
@@ -128,7 +128,7 @@ const ListDestinations = () => {
           price: '$7,000',
           location: 'Sydney, Australia',
           rating: 4.4,
-          imageUrl: '/public/img/Property/Rectangle 6 (4).png',
+          imageUrl: '/img/Property/Rectangle 6 (4).png',
           row: 2,
           col: 1
         },
@@ -138,7 +138,7 @@ const ListDestinations = () => {
           price: '$8,000',
           location: 'Barcelona, Spain',
           rating: 4.2, 
-          imageUrl: '/public/img/Property/Rectangle 6 (5).png',
+          imageUrl: '/img/Property/Rectangle 6 (5).png',
           row: 2,
           col: 2
         },
@@ -148,7 +148,7 @@ const ListDestinations = () => {
           price: '$7,000',
           location: 'Bali, Indonesia',
           rating: 4.6,
-          imageUrl: '/public/img/Property/Rectangle 6 (6).png',
+          imageUrl: '/img/Property/Rectangle 6 (6).png',
           row: 2,
           col: 3
         },
@@ -158,7 +158,7 @@ const ListDestinations = () => {
           price: '$6,000',
           location: 'Phuket, Thailand',
           rating: 4.8,
-          imageUrl: '/public/img/Property/Rectangle 6 (7).png',
+          imageUrl: '/img/Property/Rectangle 6 (7).png',
           row: 2,
           col: 4
         },
@@ -168,7 +168,7 @@ const ListDestinations = () => {
           price: '$9,000',
           location: 'Maldives',
           rating: 4.8,
-          imageUrl: '/public/img/Property/Rectangle 6.png',
+          imageUrl: '/img/Property/Rectangle 6.png',
           row: 2,
           col: 4
         },
@@ -178,7 +178,7 @@ const ListDestinations = () => {
           price: '$6,000',
           location: 'Phuket, Thailand',
           rating: 4.8,
-          imageUrl: '/public/img/Property/Rectangle 6 (3).png',
+          imageUrl: '/img/Property/Rectangle 6 (3).png',
           row: 2,
           col: 4
         },

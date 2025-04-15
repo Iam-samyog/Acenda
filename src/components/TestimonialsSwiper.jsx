@@ -13,7 +13,7 @@ export default function TestimonialsSwiper() {
         id: 1,
         name: "Sebastian",
         title: "Graphic design",
-        image: "/public/img/Testimonials/Ellipse 7.png",
+        image: "/img/Testimonials/Ellipse 7.png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -21,7 +21,7 @@ export default function TestimonialsSwiper() {
         id: 2,
         name: "Evangeline",
         title: "Model",
-        image: "/public/img/Testimonials/Ellipse 7 (1).png",
+        image: "/img/Testimonials/Ellipse 7 (1).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -29,7 +29,7 @@ export default function TestimonialsSwiper() {
         id: 3,
         name: "Alexander",
         title: "Software engineer",
-        image: "/public/img/Testimonials/Ellipse 7 (2).png", 
+        image: "/img/Testimonials/Ellipse 7 (2).png", 
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       }
@@ -40,7 +40,7 @@ export default function TestimonialsSwiper() {
         id: 4,
         name: "Jessica",
         title: "Product manager",
-        image: "/public/img/Testimonials/Ellipse 7.png",
+        image: "/img/Testimonials/Ellipse 7.png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -48,7 +48,7 @@ export default function TestimonialsSwiper() {
         id: 5,
         name: "Michael",
         title: "Marketing specialist",
-        image: "/public/img/Testimonials/Ellipse 7 (1).png",
+        image: "/img/Testimonials/Ellipse 7 (1).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -56,7 +56,7 @@ export default function TestimonialsSwiper() {
         id: 6,
         name: "Olivia",
         title: "UX designer",
-        image: "/public/img/Testimonials/Ellipse 7 (2).png",
+        image: "/img/Testimonials/Ellipse 7 (2).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       }
@@ -67,7 +67,7 @@ export default function TestimonialsSwiper() {
         id: 7,
         name: "William",
         title: "Data analyst",
-        image: "/public/img/Testimonials/Ellipse 7 (1).png",
+        image: "/img/Testimonials/Ellipse 7 (1).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -75,7 +75,7 @@ export default function TestimonialsSwiper() {
         id: 8,
         name: "Sophia",
         title: "Content creator",
-        image: "/public/img/Testimonials/Ellipse 7 (1).png",
+        image: "/img/Testimonials/Ellipse 7 (1).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       },
@@ -83,7 +83,7 @@ export default function TestimonialsSwiper() {
         id: 9,
         name: "Daniel",
         title: "Project coordinator",
-        image: "/public/img/Testimonials/Ellipse 7 (1).png",
+        image: "/img/Testimonials/Ellipse 7 (1).png",
         rating: 5,
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
       }

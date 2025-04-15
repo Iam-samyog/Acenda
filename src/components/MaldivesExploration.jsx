@@ -6,17 +6,17 @@ const MaldivesExploration = () => {
     {
       id: 1,
       name: 'Azure Haven',
-      imageUrl: '/public/img/Rectangle 53.png',
+      imageUrl: '/img/Rectangle 53.png',
     },
     {
       id: 2,
       name: 'Serene Sanctuary',
-      imageUrl: '/public/img/Rectangle 54.png',
+      imageUrl: '/img/Rectangle 54.png',
     },
     {
       id: 3,
       name: 'Verdant Vista',
-      imageUrl: '/public/img/Rectangle 54 (1).png',
+      imageUrl: '/img/Rectangle 54 (1).png',
     }
   ];
 
