@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-xs mb-4 md:mb-0">© Copyright Acando 2024</p>
           <div className="flex space-x-2 bg-black">
-            <img src="/public/img/image 4.png" alt="Visa" className="h-6 bg-white rounded" />
+            <img src="/img/image 4.png" alt="Visa" className="h-6 bg-white rounded" />
    
           </div>
         </div>
