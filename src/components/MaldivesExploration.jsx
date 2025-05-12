@@ -28,7 +28,7 @@ const MaldivesExploration = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/public/img/image 13.png" 
+          src="/img/image 13.png" 
           alt="Maldives Aerial View" 
           className="w-full h-full object-cover"
         />
