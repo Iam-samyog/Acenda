@@ -118,7 +118,7 @@ export default function TestimonialsSwiper() {
   return (
     <div className="relative w-full   bg-cover bg-center overflow-hidden" >
         <img 
-    src="/public/img/image 7 (1).png" 
+    src="/img/image 7 (1).png" 
     alt="Background" 
     className="absolute inset-0 w-full h-full object-cover" 
   />
